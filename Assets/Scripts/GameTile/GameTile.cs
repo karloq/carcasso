@@ -12,6 +12,9 @@ namespace GameTile
     private List<Side> _sides = new List<Side>(4);
     private int _northSide = 0;
 
+    private bool _hasChurch = false;
+    private bool _hasGarden = false;
+    
     public GameTile(List<Side> sides, int x, int y)
     {
       _x = x;

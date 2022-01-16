@@ -8,7 +8,6 @@ namespace GameTile
   {
     Field,
     Road,
-    Town,
-    Nothing
+    Town
   }   
 }
